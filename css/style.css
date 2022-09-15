@@ -1,2 +1,17 @@
-h1 {
-  font-size: larger; }
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Qwitcher+Grypen&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../img/fondo); }
+
+header .banner1 {
+  padding-top: 2px; }
+
+header .carrito {
+  display: flex;
+  width: 35px;
+  height: 30px;
+  margin: 5px; }

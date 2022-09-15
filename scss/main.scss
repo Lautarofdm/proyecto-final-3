@@ -1,3 +1,19 @@
-h1{
-    font-size: larger;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+body{
+    background-image: url(../img/fondo);
+}
+
+
+
+//variables
+@import "./variables/colores";
+@import "./variables/tipografia";
+//secciones
+@import "./secciones/header";
+@import "./secciones/footer";
+
+
