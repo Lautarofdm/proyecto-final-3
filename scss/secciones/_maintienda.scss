@@ -1,0 +1,14 @@
+.maintienda{
+    .colorcard{
+        background-image: linear-gradient(to top,rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89));
+    } 
+    .cardsstyle{
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    h1{
+        @extend %titulos;
+    @include fontStyle (white);
+    }
+}

@@ -7,6 +7,11 @@
 body {
   background-image: url(../img/fondo); }
 
+.mainnosotros h1, .maintienda h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 40px; }
+
 header .fondoheaderandfooter {
   background-image: linear-gradient(to right, rgba(31, 30, 30, 0.89), rgba(0, 0, 0, 0.568)); }
 
@@ -21,3 +26,28 @@ header .carrito {
 
 footer .fondoheaderandfooter {
   background-image: linear-gradient(to right, rgba(31, 30, 30, 0.89), rgba(0, 0, 0, 0.568)); }
+
+.mainnosotros .almacen {
+  margin: 5px;
+  width: 400px;
+  height: 50vh; }
+
+.mainnosotros .ubicacion {
+  margin: 5px 0px 5px 0px;
+  padding: 5px; }
+
+.mainnosotros h1 {
+  background-color: gray;
+  color: white; }
+
+.maintienda .colorcard {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89)); }
+
+.maintienda .cardsstyle {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around; }
+
+.maintienda h1 {
+  background-color: gray;
+  color: white; }
