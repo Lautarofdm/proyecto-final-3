@@ -11,4 +11,7 @@
         @extend %titulos;
     @include fontStyle (white);
     }
+    .tamaniocard{
+        width: 99vw;
+    }
 }

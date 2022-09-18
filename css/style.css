@@ -16,6 +16,7 @@ header .fondoheaderandfooter {
   background-image: linear-gradient(to right, rgba(31, 30, 30, 0.89), rgba(0, 0, 0, 0.568)); }
 
 header .banner1 {
+  width: 99,5vw;
   padding-top: 2px; }
 
 header .carrito {
@@ -36,6 +37,10 @@ footer .fondoheaderandfooter {
   margin: 5px 0px 5px 0px;
   padding: 5px; }
 
+.mainnosotros .ubicolortamanio {
+  width: 50vw;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89)); }
+
 .mainnosotros h1 {
   background-color: gray;
   color: white; }
@@ -51,3 +56,6 @@ footer .fondoheaderandfooter {
 .maintienda h1 {
   background-color: gray;
   color: white; }
+
+.maintienda .tamaniocard {
+  width: 99vw; }
